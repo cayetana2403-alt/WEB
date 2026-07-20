@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background: linear-gradient(#595a8a, #a6bbe9);
+    color: #232139;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* Título */
+h1 {
+    color: #232139;
+    font-size: 40px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+/* Animación del título */
+h1:hover {
+    animation: color-change 3s infinite;
+}
+
+
+/* Cambio de color de letras */
+@keyframes color-change {
+    0% {
+        color: #232139;
+    }
+
+    50% {
+        color: #a6bbe9;
+    }
+
+    100% {
+        color: #232139;
+    }
+}
+
+
+/* Subtítulos */
+h2 {
+    color: white;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+
+/* Párrafos */
+p {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+
+/* Hover de los párrafos */
+p:hover {
+    animation: background-change 3s infinite;
+}
+
+
+/* Lista */
+ul {
+    background-color: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+/* Hover de la lista */
+ul:hover {
+    animation: background-change 3s infinite;
+}
+
+
+/* Animación del fondo */
+@keyframes background-change {
+    0% {
+        background-color: #ffffff;
+    }
+
+    50% {
+        background-color: #bda6e9;
+    }
+
+    100% {
+        background-color: #ffffff;
+    }
+}
+
+
+li {
+    margin: 10px;
+}
+
+
+/* Imagen */
+img {
+    width: 400px;
+    max-width: 90%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
